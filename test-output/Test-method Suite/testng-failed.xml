@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Test-method Suite]" parallel="methods">
+  <test name="Test-method test(failed)" parallel="methods">
+    <classes>
+      <class name="com.cgi.code.testng.ExcelTestData">
+        <methods>
+          <include name="BeforeClass"/>
+          <include name="DoTest" invocation-numbers="0"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.cgi.code.testng.ExcelTestData -->
+    </classes>
+  </test> <!-- Test-method test(failed) -->
+</suite> <!-- Failed suite [Test-method Suite] -->

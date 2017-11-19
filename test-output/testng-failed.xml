@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.cgi.code.testng.CallActionKeywords">
+        <methods>
+          <include name="BeforeClass"/>
+          <include name="TearDown"/>
+          <include name="DoTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.cgi.code.testng.CallActionKeywords -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

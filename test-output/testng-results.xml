@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51629" started-at="2017-08-02T19:40:00Z" finished-at="2017-08-02T19:40:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51629" started-at="2017-08-02T19:40:00Z" finished-at="2017-08-02T19:40:51Z">
+      <class name="com.cgi.code.testng.CallActionKeywords">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.cgi.code.testng.CallActionKeywords@6737fd8f]" name="BeforeClass" is-config="true" duration-ms="1140" started-at="2017-08-02T16:40:00Z" finished-at="2017-08-02T16:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="DoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cgi.code.testng.CallActionKeywords@6737fd8f]" name="DoTest" duration-ms="17097" started-at="2017-08-02T16:40:34Z" data-provider="name" finished-at="2017-08-02T16:40:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Regression]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Validate Mortgage Fixed Rate]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is a positive test to ensure that a variable rate mortgage is successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.cgi.code.testng.CallActionKeywords@6737fd8f]" name="TearDown" is-config="true" duration-ms="279" started-at="2017-08-02T16:40:51Z" finished-at="2017-08-02T16:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.cgi.code.testng.CallActionKeywords -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

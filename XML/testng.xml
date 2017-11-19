@@ -1,0 +1,7 @@
+<suite name="Test-method Suite" parallel="methods" thread-count="1">
+	<test name="Test-method test" group-by-instances="false">
+	<classes>
+		<class name="com.cgi.code.testng.ExcelTestData"/>
+	</classes>
+	</test>
+</suite>
